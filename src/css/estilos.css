@@ -191,7 +191,7 @@ body {
     color: #fff;
     border: 1px solid #fff;
     padding: 20px;
-    border-radius: 15px;
+    border-radius: 40px;
     width: 180px;
     font-size: 20px;
     font-weight: 600;
@@ -204,8 +204,10 @@ body {
 
 .projetos .btn-mostrar-projetos:hover {
     transition: 0.3s;
-    color: #ffae00;
-    border: 1px solid #ffae00;
+    color: #000b3d;
+    border: none;
+    border-radius: 30px;
+    background-color: #ffae00;
 
 }
 
@@ -221,6 +223,7 @@ body {
     50% {
         background-position:  100% 50%;
     }
+
     100% {
         background-position: 0% 50%;   
     }
